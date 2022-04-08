@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main></main>
+        <h1>JOGO DA VELHA</h1>
+        <div class="linha">
+            <div id="pos1" class="posicao" onclick="selecionarPosicao(this)">-</div>
+            <div id="pos2" class="posicao" onclick="selecionarPosicao(this)">-</div>
+            <div id="pos3" class="posicao" onclick="selecionarPosicao(this)">-</div>
+        </div>
+        <div class="linha">
+            <div id="pos4" class="posicao" onclick="selecionarPosicao(this)">-</div>
+            <div id="pos5" class="posicao" onclick="selecionarPosicao(this)">-</div>
+            <div id="pos6" class="posicao" onclick="selecionarPosicao(this)">-</div>
+        </div>
+        <div class="linha">
+            <div id="pos7" class="posicao" onclick="selecionarPosicao(this)">-</div>
+            <div id="pos8" class="posicao" onclick="selecionarPosicao(this)">-</div>
+            <div id="pos9" class="posicao" onclick="selecionarPosicao(this)">-</div>
+        </div>
+        <p id="mensagem">Vez do jogador: O</p>
+        <p id="vencedor">Vencedor: </p>
+        <button onclick="recomecar()">Recomeçar</button>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
